@@ -8,5 +8,5 @@ export const Footer = (props) => {
       </p>
     </div>
   );
-  //
+  //.
 };

@@ -6,4 +6,5 @@ export const Task = (props) => {
       <button className="btn btn-danger">Delete</button>
     </div>
   );
+  //
 };
