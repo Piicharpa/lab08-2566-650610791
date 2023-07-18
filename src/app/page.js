@@ -1,7 +1,7 @@
-import { Footer } from "./components/Footer";
-import { Header } from "@/app/components/Header";
-import { Task } from "./components/Task";
-import { TaskInput } from "./components/TaskInput";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import { Task } from "../../components/Task";
+import { TaskInput } from "../../components/TaskInput";
 
 export default function Home() {
   return (
@@ -23,8 +23,8 @@ export default function Home() {
 
       {/* //footer section */}
       <Footer
-        year="2023"
-        fullname="Picharpa Eiamkanitchart"
+        year=" 2023 "
+        fullname="Picharpa Eiamkanitchart "
         studentId="650610791"
       ></Footer>
     </div>

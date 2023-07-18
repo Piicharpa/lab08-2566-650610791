@@ -1,4 +1,4 @@
-export const Footer = (props) => {
+export const TaskInput = (props) => {
   return (
     <div className="d-flex gap-1">
       <input
