@@ -6,10 +6,9 @@ import { TaskInput } from "./components/TaskInput";
 export default function Home() {
   return (
     // Main container
-    <div className="container mx-auto">
+    <div>
       {/* header section */}
       <Header></Header>
-
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
@@ -23,9 +22,11 @@ export default function Home() {
       </div>
 
       {/* //footer section */}
-      <Footer>
-        year="2023" fullname="Picharpa Eiamkanitchart" studentId="650610791"
-      </Footer>
+      <Footer
+        year="2023"
+        fullname="Picharpa Eiamkanitchart"
+        studentId="650610791"
+      ></Footer>
     </div>
   );
 }
